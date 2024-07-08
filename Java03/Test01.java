@@ -17,7 +17,6 @@ public class Test01 {
         System.out.println(obj.name);
        
         Test01 obj1 = new Test01();
-        System.out.println(obj1.name);
        
     }
     
