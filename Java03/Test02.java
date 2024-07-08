@@ -1,19 +1,19 @@
-public class Test05 {
+public class Test02 {
     int rupee;
 
-    Test05(){
+    Test02(){
         rupee = 0;
 
     }
-    Test05(int x){
+    Test02(int x){
         rupee = x;
     }
 
     public static void main(String[] args) {
  
         //constructer overloading
-        Test05 kamal = new Test05();
-        Test05 nimal =  new Test05(20);
+        Test02 kamal = new Test02();
+        Test02 nimal =  new Test02(20);
 
         System.out.println(nimal.rupee);
         System.out.println(kamal.rupee);
